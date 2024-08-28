@@ -56,12 +56,12 @@ const homeIcon = <FontAwesomeIcon icon={faHouse} />
     if (event.key === 'ArrowRight') {
       setIsVisible(false)
       setQuesNumber((prevQuesNumber) => {
-        return prevQuesNumber < 49 ? prevQuesNumber + 1 : 0;
+        return prevQuesNumber < 79 ? prevQuesNumber + 1 : 0;
       });
     } else if (event.key === 'ArrowLeft') {
       setIsVisible(false)
       setQuesNumber((prevQuesNumber) => {
-        return prevQuesNumber > 0 ? prevQuesNumber - 1 : 49;
+        return prevQuesNumber > 0 ? prevQuesNumber - 1 : 79;
       });
     }
   };
@@ -104,12 +104,12 @@ const homeIcon = <FontAwesomeIcon icon={faHouse} />
     if (direction === 'left') {
       setIsVisible(false)
       setQuesNumber((prevQuesNumber) => {
-        return prevQuesNumber < 49 ? prevQuesNumber + 1 : 0;
+        return prevQuesNumber < 79 ? prevQuesNumber + 1 : 0;
       });
     } else if (direction === 'right') {
       setIsVisible(false)
       setQuesNumber((prevQuesNumber) => {
-        return prevQuesNumber > 0 ? prevQuesNumber - 1 : 49;
+        return prevQuesNumber > 0 ? prevQuesNumber - 1 : 79;
       });
     }
   };
