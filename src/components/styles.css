@@ -134,9 +134,8 @@
 
     .question {
         width: 70%;
-        height: 180px;
-        background-color: #fff;
-        font-size: 32px;
+        background-color: #FCF8F3;
+        font-size: 22px;
     }
 
     .view-answer{
@@ -146,8 +145,8 @@
     }
     .answer-active {
         width: 70%;
-        background-color: #fff;
-        margin-top: 70px;
-        font-size: 32px;
+        background-color: #FCF8F3;
+        margin-top: 50px;
+        font-size: 22px;
     }
 }
