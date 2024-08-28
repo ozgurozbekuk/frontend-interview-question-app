@@ -102,8 +102,7 @@
 
     .question {
         width: 70%;
-        height: 250px;
-        background-color: #fff;
+        background-color: #FCF8F3;
         font-size: 22px;
     }
 
@@ -115,7 +114,7 @@
 
     .answer-active {
         width: 70%;
-        background-color: #fff;
+        background-color: #FCF8F3;
         margin-top: 50px;
         font-size: 22px;
     }
