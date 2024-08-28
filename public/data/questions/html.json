@@ -1,0 +1,254 @@
+[
+      {
+        "id": 1,
+        "question": "What does HTML stand for?",
+        "answer": "HyperText Markup Language"
+      },
+      {
+        "id": 2,
+        "question": "What is the purpose of the `<head>` tag?",
+        "answer": "Contains metadata/information about the document"
+      },
+      {
+        "id": 3,
+        "question": "How do you create a hyperlink in HTML?",
+        "answer": "Using the `<a>` tag with the `href` attribute"
+      },
+      {
+        "id": 4,
+        "question": "What is the function of the `<meta>` tag?",
+        "answer": "Provides metadata such as description, keywords, author, and viewport settings"
+      },
+      {
+        "id": 5,
+        "question": "What is the difference between `<div>` and `<span>`?",
+        "answer": "`<div>` is a block-level element, whereas `<span>` is an inline element"
+      },
+      {
+        "id": 6,
+        "question": "How do you embed an image in HTML?",
+        "answer": "Using the `<img>` tag with the `src` attribute"
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of the `<title>` tag?",
+        "answer": "Specifies the title of the document shown in the browser's title bar"
+      },
+      {
+        "id": 8,
+        "question": "How do you create a table in HTML?",
+        "answer": "Using the `<table>`, `<tr>`, `<td>`, and `<th>` tags"
+      },
+      {
+        "id": 9,
+        "question": "What does the `<alt>` attribute do in an `<img>` tag?",
+        "answer": "Provides alternative text for the image if it cannot be displayed"
+      },
+      {
+        "id": 10,
+        "question": "How do you create a list in HTML?",
+        "answer": "Using the `<ul>`, `<ol>`, and `<li>` tags"
+      },
+      {
+        "id": 11,
+        "question": "What is the purpose of the `<form>` tag?",
+        "answer": "Used to create an HTML form for user input"
+      },
+      {
+        "id": 12,
+        "question": "How do you create a text input field in HTML?",
+        "answer": "Using the `<input type='text'>` tag"
+      },
+      {
+        "id": 13,
+        "question": "What are the different types of lists in HTML?",
+        "answer": "Ordered, unordered, and definition lists"
+      },
+      {
+        "id": 14,
+        "question": "What does the `<input type='submit'>` do?",
+        "answer": "Creates a button to submit the form data"
+      },
+      {
+        "id": 15,
+        "question": "How do you create a drop-down list in HTML?",
+        "answer": "Using the `<select>` tag with `<option>` tags inside"
+      },
+      {
+        "id": 16,
+        "question": "What is the function of the `<label>` tag?",
+        "answer": "Associates a text label with a form element"
+      },
+      {
+        "id": 17,
+        "question": "What is an HTML attribute?",
+        "answer": "Provides additional information about an element"
+      },
+      {
+        "id": 18,
+        "question": "How do you create a checkbox in HTML?",
+        "answer": "Using the `<input type='checkbox'>` tag"
+      },
+      {
+        "id": 19,
+        "question": "What is the purpose of the `<button>` tag?",
+        "answer": "Defines a clickable button"
+      },
+      {
+        "id": 20,
+        "question": "How do you define a blockquote in HTML?",
+        "answer": "Using the `<blockquote>` tag"
+      },
+      {
+        "id": 21,
+        "question": "How do you create a radio button in HTML?",
+        "answer": "Using the `<input type='radio'>` tag"
+      },
+      {
+        "id": 22,
+        "question": "What does the `<iframe>` tag do?",
+        "answer": "Embeds another HTML page within the current page"
+      },
+      {
+        "id": 23,
+        "question": "What is the difference between `<strong>` and `<b>`?",
+        "answer": "`<strong>` emphasizes text with importance, `<b>` just makes it bold"
+      },
+      {
+        "id": 24,
+        "question": "How do you define a section of a webpage in HTML?",
+        "answer": "Using the `<section>` tag"
+      },
+      {
+        "id": 25,
+        "question": "What is the purpose of the `<nav>` tag?",
+        "answer": "Defines navigation links within a document"
+      },
+      {
+        "id": 26,
+        "question": "How do you include a video in HTML?",
+        "answer": "Using the `<video>` tag with `src` or `<source>` tags"
+      },
+      {
+        "id": 27,
+        "question": "What does the `<hr>` tag represent?",
+        "answer": "Defines a thematic break or horizontal line in the content"
+      },
+      {
+        "id": 28,
+        "question": "How do you create an anchor link to another section on the same page?",
+        "answer": "Using the `<a href='#section-id'>` tag"
+      },
+      {
+        "id": 29,
+        "question": "What is the function of the `<aside>` tag?",
+        "answer": "Defines content aside from the main content, often used for sidebars"
+      },
+      {
+        "id": 30,
+        "question": "How do you specify the character encoding in an HTML document?",
+        "answer": "Using the `<meta charset='UTF-8'>` tag"
+      },
+      {
+        "id": 31,
+        "question": "What does the `<br>` tag do?",
+        "answer": "Inserts a line break"
+      },
+      {
+        "id": 32,
+        "question": "What is the difference between `<ol>` and `<ul>`?",
+        "answer": "`<ol>` creates an ordered list, `<ul>` creates an unordered list"
+      },
+      {
+        "id": 33,
+        "question": "How do you create a link that opens in a new tab?",
+        "answer": "Using the `target='_blank'` attribute in the `<a>` tag"
+      },
+      {
+        "id": 34,
+        "question": "What is the purpose of the `<footer>` tag?",
+        "answer": "Defines a footer for a document or section"
+      },
+      {
+        "id": 35,
+        "question": "How do you add comments in HTML?",
+        "answer": "Using `<!-- Comment -->`"
+      },
+      {
+        "id": 36,
+        "question": "What is the role of the `<main>` tag?",
+        "answer": "Specifies the main content of the document"
+      },
+      {
+        "id": 37,
+        "question": "How do you create an ordered list in HTML?",
+        "answer": "Using the `<ol>` tag with `<li>` tags inside"
+      },
+      {
+        "id": 38,
+        "question": "What is the purpose of the `<figure>` tag?",
+        "answer": "Groups media content and its caption using `<figure>` and `<figcaption>`"
+      },
+      {
+        "id": 39,
+        "question": "How do you include an audio file in HTML?",
+        "answer": "Using the `<audio>` tag with `src` or `<source>` tags"
+      },
+      {
+        "id": 40,
+        "question": "What is the function of the `<code>` tag?",
+        "answer": "Defines a piece of computer code"
+      },
+      {
+        "id": 41,
+        "question": "What does the `target='_blank'` attribute do?",
+        "answer": "Opens the linked document in a new tab or window"
+      },
+      {
+        "id": 42,
+        "question": "How do you create a responsive image in HTML?",
+        "answer": "Using the `<img>` tag with the `srcset` attribute"
+      },
+      {
+        "id": 43,
+        "question": "What is the purpose of the `<header>` tag?",
+        "answer": "Defines a header for a document or section"
+      },
+      {
+        "id": 44,
+        "question": "How do you create a button that submits a form?",
+        "answer": "Using the `<button type='submit'>` tag"
+      },
+      {
+        "id": 45,
+        "question": "What does the `<source>` tag do in the context of media elements?",
+        "answer": "Specifies multiple media resources for `<video>` or `<audio>` elements"
+      },
+      {
+        "id": 46,
+        "question": "What is the difference between an inline and a block-level element?",
+        "answer": "Inline elements do not start on a new line, block-level elements do"
+      },
+      {
+        "id": 47,
+        "question": "How do you create a hidden input field in HTML?",
+        "answer": "Using the `<input type='hidden'>` tag"
+      },
+      {
+        "id": 48,
+        "question": "What is the purpose of the `placeholder` attribute?",
+        "answer": "Provides a hint to the user of what can be entered in the input field"
+      },
+      {
+        "id": 49,
+        "question": "How do you specify the language of an HTML document?",
+        "answer": "Using the `lang` attribute in the `<html>` tag"
+      },
+      {
+        "id": 50,
+        "question": "What does the `rel='noopener noreferrer'` attribute do?",
+        "answer": "Prevents the new page from having access to the referring page"
+      }
+]
+  
+  

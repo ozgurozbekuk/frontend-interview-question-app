@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "question": "What is the difference between `var`, `let`, and `const`?",
+        "answer": "`var` is function-scoped, while `let` and `const` are block-scoped. `const` cannot be reassigned."
+    },
+    {
+        "id": 2,
+        "question": "What does `undefined` mean in JavaScript?",
+        "answer": "`undefined` means a variable has been declared but not yet assigned a value."
+    },
+    {
+        "id": 3,
+        "question": "How do you declare a function in JavaScript?",
+        "answer": "Using the `function` keyword followed by the function name and parameters."
+    },
+    {
+        "id": 4,
+        "question": "What is a closure in JavaScript?",
+        "answer": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope."
+    },
+    {
+        "id": 5,
+        "question": "What is the purpose of `this` in JavaScript?",
+        "answer": "`this` refers to the object that is currently executing the code."
+    },
+    {
+        "id": 6,
+        "question": "How do you create an object in JavaScript?",
+        "answer": "Using object literals `{}`, the `new Object()` syntax, or `Object.create()`."
+    },
+    {
+        "id": 7,
+        "question": "What is the difference between `null` and `undefined`?",
+        "answer": "`null` is an assignment value that represents no value, while `undefined` means a variable has been declared but not yet assigned a value."
+    },
+    {
+        "id": 8,
+        "question": "How do you handle errors in JavaScript?",
+        "answer": "Using `try...catch` statements."
+    },
+    {
+        "id": 9,
+        "question": "What is the `prototype` property in JavaScript?",
+        "answer": "The `prototype` property is used to add methods and properties to all instances of a constructor function."
+    },
+    {
+        "id": 10,
+        "question": "How do you convert a string to a number in JavaScript?",
+        "answer": "Using `Number()`, `parseInt()`, or `parseFloat()`."
+    },
+    {
+        "id": 11,
+        "question": "What is `NaN`?",
+        "answer": "`NaN` stands for 'Not-a-Number' and is used to represent an undefined or unrepresentable value."
+    },
+    {
+        "id": 12,
+        "question": "How do you check if a value is `NaN`?",
+        "answer": "Using the `Number.isNaN()` method."
+    },
+    {
+        "id": 13,
+        "question": "What is the purpose of `Array.prototype.map()`?",
+        "answer": "It creates a new array with the results of calling a provided function on every element in the calling array."
+    },
+    {
+        "id": 14,
+        "question": "How do you create a promise in JavaScript?",
+        "answer": "Using the `Promise` constructor, with `resolve` and `reject` functions."
+    },
+    {
+        "id": 15,
+        "question": "What does `Promise.all()` do?",
+        "answer": "It takes an array of promises and resolves when all the promises in the array have resolved."
+    },
+    {
+        "id": 16,
+        "question": "What is event bubbling?",
+        "answer": "Event bubbling is the process by which an event starts from the target element and propagates up to the root of the DOM tree."
+    },
+    {
+        "id": 17,
+        "question": "What is a callback function?",
+        "answer": "A callback function is a function passed into another function as an argument to be executed later."
+    },
+    {
+        "id": 18,
+        "question": "What does `Array.prototype.reduce()` do?",
+        "answer": "It applies a function against an accumulator and each element in the array to reduce it to a single value."
+    },
+    {
+        "id": 19,
+        "question": "How do you create an empty array in JavaScript?",
+        "answer": "Using `[]` or `new Array()`."
+    },
+    {
+        "id": 20,
+        "question": "What is the `arguments` object?",
+        "answer": "The `arguments` object is an array-like object that holds all the arguments passed to a function."
+    },
+    {
+        "id": 21,
+        "question": "What is the difference between `==` and `===`?",
+        "answer": "`==` performs type coercion before comparison, while `===` performs a strict comparison without type coercion."
+    },
+    {
+        "id": 22,
+        "question": "How do you check if an object has a specific property?",
+        "answer": "Using the `in` operator or the `Object.hasOwnProperty()` method."
+    },
+    {
+        "id": 23,
+        "question": "What does `String.prototype.replace()` do?",
+        "answer": "It returns a new string with some matches of a pattern replaced by a replacement."
+    },
+    {
+        "id": 24,
+        "question": "How do you define a class in JavaScript?",
+        "answer": "Using the `class` keyword followed by the class name and body."
+    },
+    {
+        "id": 25,
+        "question": "What does `Object.freeze()` do?",
+        "answer": "It prevents modification of an object by making it immutable."
+    },
+    {
+        "id": 26,
+        "question": "How do you get the length of an array?",
+        "answer": "Using the `length` property."
+    },
+    {
+        "id": 27,
+        "question": "What is a higher-order function?",
+        "answer": "A function that takes one or more functions as arguments or returns a function as its result."
+    },
+    {
+        "id": 28,
+        "question": "What does `Array.prototype.concat()` do?",
+        "answer": "It merges two or more arrays into a new array."
+    },
+    {
+        "id": 29,
+        "question": "How do you check if a value is an array?",
+        "answer": "Using `Array.isArray()`."
+    },
+    {
+        "id": 30,
+        "question": "What is a closure?",
+        "answer": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope."
+    },
+    {
+        "id": 31,
+        "question": "How do you handle errors in asynchronous code?",
+        "answer": "Using `try...catch` with `async` functions or handling rejections with `catch()` method on promises."
+    },
+    {
+        "id": 32,
+        "question": "What does `Function.prototype.call()` do?",
+        "answer": "`call()` allows a function to be invoked with a specified `this` value and arguments provided individually."
+    },
+    {
+        "id": 33,
+        "question": "What is `Object.prototype.toString()` used for?",
+        "answer": "It returns a string representation of the object, usually in the form `[object Type]`."
+    },
+    {
+        "id": 34,
+        "question": "What is `Array.prototype.reverse()` used for?",
+        "answer": "It reverses the elements of an array in place and returns the array."
+    },
+    {
+        "id": 35,
+        "question": "How do you create a new array with the elements that pass a test?",
+        "answer": "Using the `filter()` method."
+    },
+    {
+        "id": 36,
+        "question": "What does `Array.prototype.some()` do?",
+        "answer": "It tests whether at least one element in the array passes the test implemented by the provided function."
+    },
+    {
+        "id": 37,
+        "question": "How do you remove the last element from an array in JavaScript?",
+        "answer": "Using the `pop()` method."
+    },
+    {
+        "id": 38,
+        "question": "How do you check if an object is an array?",
+        "answer": "Using `Array.isArray()`."
+    },
+    {
+        "id": 39,
+        "question": "What is the `Number.isNaN()` method used for?",
+        "answer": "It determines whether a value is `NaN` and its type is `Number`."
+    },
+    {
+        "id": 40,
+        "question": "How do you get a substring from a string in JavaScript?",
+        "answer": "Using the `substring()` or `slice()` method."
+    },
+    {
+        "id": 41,
+        "question": "What does the `String.prototype.split()` method do?",
+        "answer": "It splits a string into an array of substrings based on a specified delimiter."
+    },
+    {
+        "id": 42,
+        "question": "How can you iterate over the properties of an object?",
+        "answer": "Using `for...in` loop or `Object.keys()` method."
+    },
+    {
+        "id": 43,
+        "question": "What is `Object.assign()` used for?",
+        "answer": "It copies the values of all enumerable properties from one or more source objects to a target object."
+    },
+    {
+        "id": 44,
+        "question": "How do you add an event listener to an element?",
+        "answer": "Using `addEventListener()` method on the element."
+    },
+    {
+        "id": 45,
+        "question": "What is the `fetch` API used for?",
+        "answer": "The `fetch` API is used to make network requests to servers."
+    },
+    {
+        "id": 46,
+        "question": "What does `Array.prototype.splice()` do?",
+        "answer": "It changes the contents of an array by removing or replacing existing elements and/or adding new elements."
+    },
+    {
+        "id": 47,
+        "question": "How do you convert an array to a string?",
+        "answer": "Using the `join()` method."
+    },
+    {
+        "id": 48,
+        "question": "What is the `setTimeout()` function used for?",
+        "answer": "It sets a timer which executes a function or a block of code after a specified delay."
+    },
+    {
+        "id": 49,
+        "question": "What is the `clearTimeout()` function used for?",
+        "answer": "It cancels a timeout previously established by `setTimeout()`."
+    },
+    {
+        "id": 50,
+        "question": "How do you create a new date object in JavaScript?",
+        "answer": "Using the `Date` constructor."
+    },
+    {
+        "id": 51,
+        "question": "What does `Array.prototype.shift()` do?",
+        "answer": "It removes the first element from an array and returns that element."
+    },
+    {
+        "id": 52,
+        "question": "What is the purpose of `Object.create()`?",
+        "answer": "It creates a new object with the specified prototype object and properties."
+    },
+    {
+        "id": 53,
+        "question": "What does the `window` object represent?",
+        "answer": "The `window` object represents the browser's window and provides access to various properties and methods related to the browser environment."
+    },
+    {
+        "id": 54,
+        "question": "How do you get the current URL in JavaScript?",
+        "answer": "Using `window.location.href`."
+    },
+    {
+        "id": 55,
+        "question": "What does `Array.prototype.every()` do?",
+        "answer": "It tests whether all elements in the array pass the test implemented by the provided function."
+    },
+    {
+        "id": 56,
+        "question": "How do you check if a variable is an object?",
+        "answer": "Using `typeof` operator and checking if it is equal to 'object', while also ensuring it is not `null`."
+    },
+    {
+        "id": 57,
+        "question": "What is a JavaScript 'callback hell'?",
+        "answer": "A situation where multiple nested callbacks make the code hard to read and maintain."
+    },
+    {
+        "id": 58,
+        "question": "How do you set a default parameter value in a function?",
+        "answer": "By assigning a default value in the function definition, e.g., `function myFunction(param = defaultValue) {}`."
+    },
+    {
+        "id": 59,
+        "question": "What is a JavaScript promise?",
+        "answer": "A promise represents a value that may be available now, or in the future, or never. It is used for asynchronous operations."
+    },
+    {
+        "id": 60,
+        "question": "How do you convert a number to a string?",
+        "answer": "Using `String()` or `toString()` method."
+    },
+    {
+        "id": 61,
+        "question": "What does `Array.prototype.unshift()` do?",
+        "answer": "It adds one or more elements to the beginning of an array and returns the new length of the array."
+    },
+    {
+        "id": 62,
+        "question": "How do you parse JSON data in JavaScript?",
+        "answer": "Using `JSON.parse()`."
+    },
+    {
+        "id": 63,
+        "question": "What does `Array.prototype.find()` do?",
+        "answer": "It returns the first element in the array that satisfies the provided testing function."
+    },
+    {
+        "id": 64,
+        "question": "How do you remove duplicates from an array?",
+        "answer": "Using `Set` or array methods such as `filter()` with `indexOf()`."
+    },
+    {
+        "id": 65,
+        "question": "What is the `Math.random()` method used for?",
+        "answer": "It returns a pseudo-random number between 0 (inclusive) and 1 (exclusive)."
+    },
+    {
+        "id": 66,
+        "question": "How do you get the keys of an object?",
+        "answer": "Using `Object.keys()`."
+    },
+    {
+        "id": 67,
+        "question": "What does `Object.values()` do?",
+        "answer": "It returns an array of a given object's own enumerable property values."
+    },
+    {
+        "id": 68,
+        "question": "How do you prevent an object from being modified?",
+        "answer": "Using `Object.freeze()`."
+    },
+    {
+        "id": 69,
+        "question": "What does `Object.entries()` return?",
+        "answer": "An array of a given object's own enumerable string-keyed property [key, value] pairs."
+    },
+    {
+        "id": 70,
+        "question": "What is the difference between `for...in` and `for...of`?",
+        "answer": "`for...in` iterates over the enumerable properties of an object, while `for...of` iterates over the values of iterable objects like arrays."
+    },
+    {
+        "id": 71,
+        "question": "How do you get the type of a variable in JavaScript?",
+        "answer": "Using the `typeof` operator."
+    },
+    {
+        "id": 72,
+        "question": "What is a 'throttle' function?",
+        "answer": "A throttle function limits the rate at which a function is executed, ensuring it is called at most once in a specified period."
+    },
+    {
+        "id": 73,
+        "question": "How do you create a new instance of an object using a constructor?",
+        "answer": "Using the `new` keyword followed by the constructor function."
+    },
+    {
+        "id": 74,
+        "question": "What does `Array.prototype.flat()` do?",
+        "answer": "It creates a new array with all sub-array elements concatenated into it recursively up to the specified depth."
+    },
+    {
+        "id": 75,
+        "question": "How do you check if a number is an integer?",
+        "answer": "Using `Number.isInteger()`."
+    },
+    {
+        "id": 76,
+        "question": "What is `async`/`await` syntax?",
+        "answer": "A syntax for handling asynchronous operations that makes code look synchronous. `async` functions return a promise, and `await` pauses execution until the promise resolves."
+    },
+    {
+        "id": 77,
+        "question": "What is `Array.prototype.includes()` used for?",
+        "answer": "It determines whether an array contains a certain element, returning `true` or `false`."
+    },
+    {
+        "id": 78,
+        "question": "How do you create a generator function in JavaScript?",
+        "answer": "Using the `function*` syntax."
+    },
+    {
+        "id": 79,
+        "question": "What is `Symbol` in JavaScript?",
+        "answer": "A primitive data type that is unique and immutable, often used as object property keys."
+    },
+    {
+        "id": 80,
+        "question": "How do you create a Map object?",
+        "answer": "Using the `Map` constructor."
+    },
+    {
+        "id": 81,
+        "question": "What does `Map.prototype.set()` do?",
+        "answer": "It adds a new element with a specified key and value to a `Map` object."
+    },
+    {
+        "id": 82,
+        "question": "What does `Map.prototype.get()` do?",
+        "answer": "It returns the value associated with the specified key in the `Map` object."
+    },
+    {
+        "id": 83,
+        "question": "What is `WeakMap` in JavaScript?",
+        "answer": "A `WeakMap` is a collection of key-value pairs where keys are objects and the values can be any value. It does not prevent garbage collection of keys."
+    },
+    {
+        "id": 84,
+        "question": "How do you create a Set object?",
+        "answer": "Using the `Set` constructor."
+    },
+    {
+        "id": 85,
+        "question": "What does `Set.prototype.add()` do?",
+        "answer": "It adds a new element to a `Set` object."
+    },
+    {
+        "id": 86,
+        "question": "How do you check if a value exists in a Set?",
+        "answer": "Using the `has()` method."
+    },
+    {
+        "id": 87,
+        "question": "What does `Set.prototype.delete()` do?",
+        "answer": "It removes a specified value from a `Set` object."
+    },
+    {
+        "id": 88,
+        "question": "What is `Proxy` in JavaScript?",
+        "answer": "A `Proxy` is an object that wraps another object and allows you to intercept and customize operations performed on the target object."
+    },
+    {
+        "id": 89,
+        "question": "How do you create a new `Proxy` object?",
+        "answer": "Using the `Proxy` constructor with a target object and a handler object."
+    },
+    {
+        "id": 90,
+        "question": "What is `Reflect` in JavaScript?",
+        "answer": "The `Reflect` object is a built-in object that provides methods for interceptable JavaScript operations and is used in conjunction with `Proxy`."
+    },
+    {
+        "id": 91,
+        "question": "What does `Reflect.apply()` do?",
+        "answer": "It calls a target function with a specified `this` value and arguments, similar to `Function.prototype.apply()`."
+    },
+    {
+        "id": 92,
+        "question": "How do you define a class in JavaScript?",
+        "answer": "Using the `class` keyword followed by a class name and a body with methods."
+    },
+    {
+        "id": 93,
+        "question": "What is inheritance in JavaScript classes?",
+        "answer": "Inheritance allows a class to extend another class, inheriting its properties and methods using the `extends` keyword."
+    },
+    {
+        "id": 94,
+        "question": "How do you call a parent class method from a subclass?",
+        "answer": "Using the `super` keyword followed by the method name."
+    },
+    {
+        "id": 95,
+        "question": "What is `static` in JavaScript classes?",
+        "answer": "The `static` keyword defines a static method or property that belongs to the class itself rather than instances of the class."
+    },
+    {
+        "id": 96,
+        "question": "What does `Array.prototype.reduce()` do?",
+        "answer": "It executes a reducer function on each element of the array, resulting in a single output value."
+    },
+    {
+        "id": 97,
+        "question": "How do you sort an array of objects by a specific property?",
+        "answer": "Using `Array.prototype.sort()` with a compare function that compares the desired property."
+    },
+    {
+        "id": 98,
+        "question": "How do you create a new instance of a `Date` object?",
+        "answer": "Using the `Date` constructor, e.g., `new Date()`."
+    },
+    {
+        "id": 99,
+        "question": "What is a `Set` in JavaScript?",
+        "answer": "A `Set` is a collection of unique values."
+    },
+    {
+        "id": 100,
+        "question": "How do you get the length of an array?",
+        "answer": "Using the `length` property of the array."
+    },
+    {
+        "id": 101,
+        "question": "What does `Array.prototype.concat()` do?",
+        "answer": "It merges two or more arrays and returns a new array."
+    },
+    {
+        "id": 102,
+        "question": "How do you remove the last element from an array?",
+        "answer": "Using `Array.prototype.pop()`."
+    },
+    {
+        "id": 103,
+        "question": "How do you add an element to the end of an array?",
+        "answer": "Using `Array.prototype.push()`."
+    },
+    {
+        "id": 104,
+        "question": "What is the `typeof` operator used for?",
+        "answer": "It returns a string indicating the type of the unevaluated operand."
+    },
+    {
+        "id": 105,
+        "question": "How do you check if a value is an array?",
+        "answer": "Using `Array.isArray()`."
+    },
+    {
+        "id": 106,
+        "question": "What does `Array.prototype.map()` do?",
+        "answer": "It creates a new array populated with the results of calling a provided function on every element in the calling array."
+    },
+    {
+        "id": 107,
+        "question": "How do you create a promise in JavaScript?",
+        "answer": "Using the `Promise` constructor with an executor function that takes `resolve` and `reject` as arguments."
+    },
+    {
+        "id": 108,
+        "question": "What is the `await` keyword used for?",
+        "answer": "It pauses the execution of an `async` function until a promise is resolved or rejected."
+    },
+    {
+        "id": 109,
+        "question": "How do you handle errors in promises?",
+        "answer": "Using `.catch()` method or within `async` functions using `try...catch`."
+    },
+    {
+        "id": 110,
+        "question": "What is the `finally` method in promises?",
+        "answer": "It executes a callback when the promise is settled, regardless of its outcome."
+    },
+    {
+        "id": 111,
+        "question": "How do you define a method in a JavaScript class?",
+        "answer": "By including a function definition within the class body."
+    },
+    {
+        "id": 112,
+        "question": "What is the `constructor` method in a class?",
+        "answer": "It is a special method for creating and initializing an object instance."
+    },
+    {
+        "id": 113,
+        "question": "How do you extend a class in JavaScript?",
+        "answer": "Using the `extends` keyword in the class definition."
+    },
+    {
+        "id": 114,
+        "question": "What does `Array.prototype.some()` do?",
+        "answer": "It tests whether at least one element in the array passes the test implemented by the provided function."
+    },
+    {
+        "id": 115,
+        "question": "How do you get the number of properties in an object?",
+        "answer": "Using `Object.keys(obj).length`."
+    },
+    {
+        "id": 116,
+        "question": "What is `Object.prototype.hasOwnProperty()` used for?",
+        "answer": "It checks if an object has a property as its own (not inherited)."
+    },
+    {
+        "id": 117,
+        "question": "How do you clone an object in JavaScript?",
+        "answer": "Using `Object.assign()` or the spread operator `{...obj}`."
+    },
+    {
+        "id": 118,
+        "question": "What is the difference between `null` and `undefined`?",
+        "answer": "`null` is an assignment value representing no value, while `undefined` means a variable has been declared but not yet assigned a value."
+    },
+    {
+        "id": 119,
+        "question": "How do you create a new object with a specific prototype?",
+        "answer": "Using `Object.create(prototype)`."
+    },
+    {
+        "id": 120,
+        "question": "What is the `Math` object used for?",
+        "answer": "It provides mathematical constants and functions."
+    },
+    {
+        "id": 121,
+        "question": "How do you generate a random integer within a range?",
+        "answer": "Using `Math.floor(Math.random() * (max - min + 1)) + min`."
+    },
+    {
+        "id": 122,
+        "question": "What does `Array.prototype.slice()` do?",
+        "answer": "It returns a shallow copy of a portion of an array into a new array object."
+    },
+    {
+        "id": 123,
+        "question": "How do you create a new element in the DOM?",
+        "answer": "Using `document.createElement(tagName)`."
+    },
+    {
+        "id": 124,
+        "question": "What does `Node.appendChild()` do?",
+        "answer": "It adds a node to the end of the list of children of a specified parent node."
+    },
+    {
+        "id": 125,
+        "question": "How do you remove a DOM element?",
+        "answer": "Using `element.remove()` or `parentElement.removeChild(element)`."
+    },
+    {
+        "id": 126,
+        "question": "What is event delegation?",
+        "answer": "It involves attaching a single event listener to a parent element to manage events for multiple child elements."
+    },
+    {
+        "id": 127,
+        "question": "How do you prevent the default action of an event?",
+        "answer": "Using `event.preventDefault()`."
+    },
+    {
+        "id": 128,
+        "question": "How do you stop event propagation?",
+        "answer": "Using `event.stopPropagation()`."
+    },
+    {
+        "id": 129,
+        "question": "What does `document.querySelector()` do?",
+        "answer": "It returns the first element that matches a specified CSS selector(s)."
+    },
+    {
+        "id": 130,
+        "question": "How do you get the value of an input element?",
+        "answer": "Using `element.value`."
+    },
+    {
+        "id": 131,
+        "question": "What is `localStorage`?",
+        "answer": "A web storage API that allows data to be stored locally within the user's browser with no expiration date."
+    },
+    {
+        "id": 132,
+        "question": "How do you set an item in `localStorage`?",
+        "answer": "Using `localStorage.setItem(key, value)`."
+    },
+    {
+        "id": 133,
+        "question": "How do you retrieve an item from `localStorage`?",
+        "answer": "Using `localStorage.getItem(key)`."
+    },
+    {
+        "id": 134,
+        "question": "How do you remove an item from `localStorage`?",
+        "answer": "Using `localStorage.removeItem(key)`."
+    },
+    {
+        "id": 135,
+        "question": "What is `sessionStorage`?",
+        "answer": "A web storage API similar to `localStorage`, but with a lifetime tied to the page session."
+    },
+    {
+        "id": 136,
+        "question": "How do you set an item in `sessionStorage`?",
+        "answer": "Using `sessionStorage.setItem(key, value)`."
+    },
+    {
+        "id": 137,
+        "question": "How do you retrieve an item from `sessionStorage`?",
+        "answer": "Using `sessionStorage.getItem(key)`."
+    },
+    {
+        "id": 138,
+        "question": "How do you remove an item from `sessionStorage`?",
+        "answer": "Using `sessionStorage.removeItem(key)`."
+    },
+    {
+        "id": 139,
+        "question": "What is `JSON.stringify()` used for?",
+        "answer": "It converts a JavaScript object or value to a JSON string."
+    },
+    {
+        "id": 140,
+        "question": "What does `JSON.parse()` do?",
+        "answer": "It parses a JSON string, constructing the JavaScript value or object described by the string."
+    },
+    {
+        "id": 141,
+        "question": "How do you create a custom event?",
+        "answer": "Using `new CustomEvent(type, options)`."
+    },
+    {
+        "id": 142,
+        "question": "What does `window.addEventListener()` do?",
+        "answer": "It registers an event handler to listen to specified events on the `window` object."
+    },
+    {
+        "id": 143,
+        "question": "What is a Web Worker?",
+        "answer": "A Web Worker is a JavaScript running in the background, independently of other scripts, allowing for concurrent execution."
+    },
+    {
+        "id": 144,
+        "question": "How do you create a Web Worker?",
+        "answer": "Using the `Worker` constructor with a URL to a JavaScript file."
+    },
+    {
+        "id": 145,
+        "question": "How do you communicate with a Web Worker?",
+        "answer": "Using `postMessage()` to send messages and `onmessage` to receive messages."
+    },
+    {
+        "id": 146,
+        "question": "What is `ServiceWorker`?",
+        "answer": "A type of Web Worker that acts as a proxy between the web application and the network, allowing for offline capabilities and background sync."
+    },
+    {
+        "id": 147,
+        "question": "How do you register a Service Worker?",
+        "answer": "Using `navigator.serviceWorker.register(url)`."
+    },
+    {
+        "id": 148,
+        "question": "What is the `fetch` API?",
+        "answer": "A modern interface for making HTTP requests, returning promises."
+    },
+    {
+        "id": 149,
+        "question": "How do you handle a response from a `fetch` request?",
+        "answer": "Using the `.then()` method to process the response, often converting it to JSON."
+    },
+    {
+        "id": 150,
+        "question": "What is `async/await` syntax?",
+        "answer": "A way to write asynchronous code that is easier to read and maintain, using `async` functions and `await` expressions."
+    },
+    {
+        "id": 151,
+        "question": "How do you define an `async` function?",
+        "answer": "By prefixing the function definition with the `async` keyword."
+    },
+    {
+        "id": 152,
+        "question": "What does the `await` keyword do?",
+        "answer": "It pauses the execution of an `async` function until the promise is resolved or rejected."
+    },
+    {
+        "id": 153,
+        "question": "How do you handle errors in an `async` function?",
+        "answer": "Using `try...catch` blocks within the `async` function."
+    },
+    {
+        "id": 154,
+        "question": "What is a template literal?",
+        "answer": "A way to create strings using backticks (`), allowing for embedded expressions with `${}`."
+    },
+    {
+        "id": 155,
+        "question": "How do you include expressions in a template literal?",
+        "answer": "By embedding expressions within `${}` inside a backtick-delimited string."
+    },
+    {
+        "id": 156,
+        "question": "What is destructuring assignment?",
+        "answer": "A syntax that allows unpacking values from arrays or properties from objects into distinct variables."
+    },
+    {
+        "id": 157,
+        "question": "How do you use destructuring with arrays?",
+        "answer": "By specifying variables in brackets `[]` to match the array elements."
+    },
+    {
+        "id": 158,
+        "question": "How do you use destructuring with objects?",
+        "answer": "By specifying variables in curly braces `{}` to match the object properties."
+    },
+    {
+        "id": 159,
+        "question": "What is the spread operator?",
+        "answer": "The spread operator (`...`) allows an iterable to be expanded into more elements, such as in arrays or function arguments."
+    },
+    {
+        "id": 160,
+        "question": "How do you use the spread operator with arrays?",
+        "answer": "By placing `...` before an array to expand its elements into another array."
+    },
+    {
+        "id": 161,
+        "question": "What is a generator function?",
+        "answer": "A function that can be paused and resumed, defined using the `function*` syntax and yielding values with `yield`."
+    },
+    {
+        "id": 162,
+        "question": "How do you call a generator function?",
+        "answer": "By invoking the function which returns an iterator object."
+    },
+    {
+        "id": 163,
+        "question": "What does the `yield` keyword do in a generator function?",
+        "answer": "It pauses the function and returns a value to the caller, resuming execution on subsequent calls."
+    },
+    {
+        "id": 164,
+        "question": "How do you iterate over generator function results?",
+        "answer": "By using a `for...of` loop or calling the `next()` method on the iterator object."
+    },
+    {
+        "id": 165,
+        "question": "What is the `Symbol` type in JavaScript?",
+        "answer": "A primitive data type representing a unique and immutable value, often used as object property keys."
+    },
+    {
+        "id": 166,
+        "question": "How do you create a `Symbol`?",
+        "answer": "Using the `Symbol()` function."
+    },
+    {
+        "id": 167,
+        "question": "What is the `Set` object?",
+        "answer": "A collection of unique values."
+    },
+    {
+        "id": 168,
+        "question": "How do you convert a `Set` to an array?",
+        "answer": "Using `Array.from(set)` or `[...set]`."
+    },
+    {
+        "id": 169,
+        "question": "What does `Array.prototype.filter()` do?",
+        "answer": "It creates a new array with all elements that pass the test implemented by the provided function."
+    },
+    {
+        "id": 170,
+        "question": "How do you merge multiple objects into one?",
+        "answer": "Using `Object.assign(target, ...sources)` or the spread operator `{...obj1, ...obj2}`."
+    },
+    {
+        "id": 171,
+        "question": "What is `WeakMap`?",
+        "answer": "A collection of key-value pairs where the keys are objects and are weakly held, meaning they do not prevent garbage collection."
+    },
+    {
+        "id": 172,
+        "question": "How do you check if a `WeakMap` has a key?",
+        "answer": "Using the `has(key)` method."
+    },
+    {
+        "id": 173,
+        "question": "What is `WeakSet`?",
+        "answer": "A collection of objects where the objects are weakly held, meaning they do not prevent garbage collection."
+    },
+    {
+        "id": 174,
+        "question": "How do you add an object to a `WeakSet`?",
+        "answer": "Using the `add(object)` method."
+    },
+    {
+        "id": 175,
+        "question": "What is `Intl` in JavaScript?",
+        "answer": "The `Intl` object provides language-sensitive functionality, including number formatting, date and time formatting, and more."
+    },
+    {
+        "id": 176,
+        "question": "How do you format a number using `Intl.NumberFormat`?",
+        "answer": "By creating a new `Intl.NumberFormat` object and calling its `format()` method."
+    },
+    {
+        "id": 177,
+        "question": "What is the `Intl.DateTimeFormat` object?",
+        "answer": "An object for formatting dates and times according to a locale."
+    },
+    {
+        "id": 178,
+        "question": "How do you format a date using `Intl.DateTimeFormat`?",
+        "answer": "By creating a new `Intl.DateTimeFormat` object and calling its `format()` method."
+    },
+    {
+        "id": 179,
+        "question": "What is a `BigInt` in JavaScript?",
+        "answer": "A built-in object that provides a way to represent whole numbers larger than `Number.MAX_SAFE_INTEGER`."
+    },
+    {
+        "id": 180,
+        "question": "How do you create a `BigInt`?",
+        "answer": "By appending `n` to an integer literal or using the `BigInt()` constructor."
+    },
+    {
+        "id": 181,
+        "question": "How do you convert a `BigInt` to a regular number?",
+        "answer": "Using the `Number()` function, though this may lose precision for very large `BigInt` values."
+    },
+    {
+        "id": 182,
+        "question": "What is the `WeakRef` object?",
+        "answer": "A built-in object that allows holding weak references to objects, meaning they do not prevent garbage collection."
+    },
+    {
+        "id": 183,
+        "question": "What is the `FinalizationRegistry` object?",
+        "answer": "A built-in object that allows registration of cleanup operations to be called when objects are garbage collected."
+    },
+    {
+        "id": 184,
+        "question": "How do you use `FinalizationRegistry`?",
+        "answer": "By creating a `FinalizationRegistry` instance and registering objects with a callback function."
+    },
+    {
+        "id": 185,
+        "question": "What is the `at()` method in arrays?",
+        "answer": "A method that returns the element at a given index, allowing negative indices to count back from the end of the array."
+    },
+    {
+        "id": 186,
+        "question": "How do you create a new `URL` object?",
+        "answer": "Using the `URL` constructor with a URL string."
+    },
+    {
+        "id": 187,
+        "question": "What does the `URLSearchParams` object do?",
+        "answer": "It provides methods for working with the query string of a URL."
+    },
+    {
+        "id": 188,
+        "question": "How do you append a query parameter using `URLSearchParams`?",
+        "answer": "Using the `append(name, value)` method."
+    },
+    {
+        "id": 189,
+        "question": "How do you retrieve all values for a query parameter using `URLSearchParams`?",
+        "answer": "Using the `getAll(name)` method."
+    },
+    {
+        "id": 190,
+        "question": "What is the `Proxy` object?",
+        "answer": "A built-in object that allows creation of a proxy for another object, enabling custom behavior for fundamental operations."
+    },
+    {
+        "id": 191,
+        "question": "How do you create a `Proxy`?",
+        "answer": "Using the `Proxy` constructor with a target object and a handler object."
+    },
+    {
+        "id": 192,
+        "question": "What is the `Reflect` object?",
+        "answer": "A built-in object that provides methods for interceptable JavaScript operations, similar to the `Proxy` object."
+    },
+    {
+        "id": 193,
+        "question": "How do you use `Reflect` to get a property from an object?",
+        "answer": "Using the `Reflect.get(target, propertyKey)` method."
+    },
+    {
+        "id": 194,
+        "question": "What does the `Array.prototype.flat()` method do?",
+        "answer": "It creates a new array with all sub-array elements concatenated into it recursively up to a specified depth."
+    },
+    {
+        "id": 195,
+        "question": "How do you flatten an array with `Array.prototype.flat()`?",
+        "answer": "By calling the `flat()` method with the desired depth level."
+    },
+    {
+        "id": 196,
+        "question": "What is `Array.prototype.flatMap()`?",
+        "answer": "A method that first maps each element using a mapping function, then flattens the result into a new array."
+    },
+    {
+        "id": 197,
+        "question": "How do you convert a `NodeList` to an array?",
+        "answer": "Using `Array.from(nodeList)` or `[...nodeList]`."
+    },
+    {
+        "id": 198,
+        "question": "What is the `IntersectionObserver` API?",
+        "answer": "An API for detecting when elements enter or exit the viewport or intersect with other elements."
+    },
+    {
+        "id": 199,
+        "question": "How do you create an `IntersectionObserver`?",
+        "answer": "Using the `IntersectionObserver` constructor with a callback function and options object."
+    },
+    {
+        "id": 200,
+        "question": "What is the `Intl.Collator` object?",
+        "answer": "An object that allows for locale-sensitive string comparison and sorting."
+    }
+]

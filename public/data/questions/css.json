@@ -1,0 +1,253 @@
+[
+      {
+        "id": 1,
+        "question": "What does CSS stand for?",
+        "answer": "Cascading Style Sheets"
+      },
+      {
+        "id": 2,
+        "question": "How do you link a CSS file to an HTML document?",
+        "answer": "Using the `<link>` tag with `rel='stylesheet'` and `href` attributes"
+      },
+      {
+        "id": 3,
+        "question": "What is the purpose of the `box-sizing` property in CSS?",
+        "answer": "Defines how the width and height of an element are calculated, including padding and borders"
+      },
+      {
+        "id": 4,
+        "question": "How do you apply a style to multiple elements in CSS?",
+        "answer": "By separating selectors with a comma"
+      },
+      {
+        "id": 5,
+        "question": "What is the difference between `margin` and `padding` in CSS?",
+        "answer": "`Margin` is the space outside an element's border, while `padding` is the space inside the border"
+      },
+      {
+        "id": 6,
+        "question": "How do you center an element horizontally in CSS?",
+        "answer": "Using `margin: auto` and setting a specific width"
+      },
+      {
+        "id": 7,
+        "question": "What does the `float` property do in CSS?",
+        "answer": "Allows elements to float to the left or right of their container"
+      },
+      {
+        "id": 8,
+        "question": "How do you create a flexbox container in CSS?",
+        "answer": "Using the `display: flex` property on the container element"
+      },
+      {
+        "id": 9,
+        "question": "What is the purpose of the `z-index` property in CSS?",
+        "answer": "Controls the stacking order of overlapping elements"
+      },
+      {
+        "id": 10,
+        "question": "How do you create a CSS grid container?",
+        "answer": "Using the `display: grid` property on the container element"
+      },
+      {
+        "id": 11,
+        "question": "What is a CSS selector?",
+        "answer": "A pattern used to select the elements you want to style"
+      },
+      {
+        "id": 12,
+        "question": "How do you change the text color in CSS?",
+        "answer": "Using the `color` property"
+      },
+      {
+        "id": 13,
+        "question": "What does the `position` property do in CSS?",
+        "answer": "Specifies the type of positioning method used for an element (static, relative, absolute, fixed, sticky)"
+      },
+      {
+        "id": 14,
+        "question": "How do you apply a background image in CSS?",
+        "answer": "Using the `background-image` property with the `url()` function"
+      },
+      {
+        "id": 15,
+        "question": "What is the difference between `inline` and `block` elements in CSS?",
+        "answer": "`Inline` elements do not start on a new line, while `block` elements do"
+      },
+      {
+        "id": 16,
+        "question": "How do you create a responsive layout in CSS?",
+        "answer": "Using media queries and flexible grid or flexbox layouts"
+      },
+      {
+        "id": 17,
+        "question": "What does the `display` property do in CSS?",
+        "answer": "Specifies how an element is displayed on the page"
+      },
+      {
+        "id": 18,
+        "question": "How do you make text bold in CSS?",
+        "answer": "Using the `font-weight` property with a value of `bold` or a numerical value"
+      },
+      {
+        "id": 19,
+        "question": "What is the `hover` pseudo-class in CSS?",
+        "answer": "A state that applies styles when the user hovers over an element"
+      },
+      {
+        "id": 20,
+        "question": "How do you round the corners of an element in CSS?",
+        "answer": "Using the `border-radius` property"
+      },
+      {
+        "id": 21,
+        "question": "What is the purpose of the `opacity` property in CSS?",
+        "answer": "Sets the transparency level of an element"
+      },
+      {
+        "id": 22,
+        "question": "How do you create a drop shadow in CSS?",
+        "answer": "Using the `box-shadow` property"
+      },
+      {
+        "id": 23,
+        "question": "What is the purpose of the `transition` property in CSS?",
+        "answer": "Specifies the timing and easing of CSS property changes"
+      },
+      {
+        "id": 24,
+        "question": "How do you make an element take up the entire width of its container in CSS?",
+        "answer": "Using the `width: 100%` property"
+      },
+      {
+        "id": 25,
+        "question": "What is the difference between `absolute` and `relative` positioning in CSS?",
+        "answer": "`Absolute` positioning removes the element from the normal document flow, while `relative` positioning keeps it in the flow but offsets it"
+      },
+      {
+        "id": 26,
+        "question": "How do you hide an element in CSS?",
+        "answer": "Using the `display: none` or `visibility: hidden` properties"
+      },
+      {
+        "id": 27,
+        "question": "What is the purpose of the `overflow` property in CSS?",
+        "answer": "Controls how content is displayed when it overflows its container"
+      },
+      {
+        "id": 28,
+        "question": "How do you align items in a flexbox container in CSS?",
+        "answer": "Using the `align-items` or `justify-content` properties"
+      },
+      {
+        "id": 29,
+        "question": "What is a media query in CSS?",
+        "answer": "A technique used to apply different styles based on the screen size or device characteristics"
+      },
+      {
+        "id": 30,
+        "question": "How do you add space between elements in a flexbox container?",
+        "answer": "Using the `gap` property"
+      },
+      {
+        "id": 31,
+        "question": "What is the purpose of the `flex-grow` property in CSS?",
+        "answer": "Defines how much a flex item should grow relative to the rest of the flex items"
+      },
+      {
+        "id": 32,
+        "question": "How do you make a background image cover the entire element in CSS?",
+        "answer": "Using the `background-size: cover` property"
+      },
+      {
+        "id": 33,
+        "question": "What is the difference between `min-width` and `max-width` in CSS?",
+        "answer": "`Min-width` sets the minimum width an element can be, while `max-width` sets the maximum"
+      },
+      {
+        "id": 34,
+        "question": "How do you apply styles to only the first child element in CSS?",
+        "answer": "Using the `:first-child` pseudo-class"
+      },
+      {
+        "id": 35,
+        "question": "What is the purpose of the `line-height` property in CSS?",
+        "answer": "Sets the height of each line of text within an element"
+      },
+      {
+        "id": 36,
+        "question": "How do you create a fixed background image in CSS?",
+        "answer": "Using the `background-attachment: fixed` property"
+      },
+      {
+        "id": 37,
+        "question": "What is the `nth-child` pseudo-class in CSS?",
+        "answer": "Selects elements based on their position within a parent element"
+      },
+      {
+        "id": 38,
+        "question": "How do you change the cursor when hovering over an element in CSS?",
+        "answer": "Using the `cursor` property"
+      },
+      {
+        "id": 39,
+        "question": "What is the purpose of the `clip-path` property in CSS?",
+        "answer": "Creates a clipping region that defines what part of an element is visible"
+      },
+      {
+        "id": 40,
+        "question": "How do you create a CSS animation?",
+        "answer": "Using the `@keyframes` rule and the `animation` property"
+      },
+      {
+        "id": 41,
+        "question": "What is the `:nth-of-type` pseudo-class in CSS?",
+        "answer": "Selects elements of a specific type based on their position among siblings"
+      },
+      {
+        "id": 42,
+        "question": "How do you vertically align text within an element in CSS?",
+        "answer": "Using the `vertical-align` property"
+      },
+      {
+        "id": 43,
+        "question": "What is the purpose of the `outline` property in CSS?",
+        "answer": "Draws a line outside the element's border, without affecting layout"
+      },
+      {
+        "id": 44,
+        "question": "How do you set a maximum height for an element in CSS?",
+        "answer": "Using the `max-height` property"
+      },
+      {
+        "id": 45,
+        "question": "What is the `:before` pseudo-element in CSS?",
+        "answer": "Inserts content before an element's actual content"
+      },
+      {
+        "id": 46,
+        "question": "How do you create a gradient background in CSS?",
+        "answer": "Using the `background-image` property with `linear-gradient` or `radial-gradient`"
+      },
+      {
+        "id": 47,
+        "question": "What is the `::after` pseudo-element in CSS?",
+        "answer": "Inserts content after an element's actual content"
+      },
+      {
+        "id": 48,
+        "question": "How do you set the spacing between lines of text in CSS?",
+        "answer": "Using the `line-height` property"
+      },
+      {
+        "id": 49,
+        "question": "What is the purpose of the `pointer-events` property in CSS?",
+        "answer": "Specifies under what circumstances (if any) a particular element can become the target of pointer events"
+      },
+      {
+        "id": 50,
+        "question": "How do you make a CSS element sticky?",
+        "answer": "Using `position: sticky` and setting `top`, `bottom`, `left`, or `right`"
+      }
+]
+  
