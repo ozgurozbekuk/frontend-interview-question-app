@@ -118,6 +118,8 @@ const homeIcon = <FontAwesomeIcon icon={faHouse} />
   
   return (
     <div {...handlers} className='question-container' >
+      {loading && <p>Loading...</p>}
+      {error && <p>Error: {error.message}</p>}
       <div className="icons-container">
           <i className={"icon left"}  onClick={clickHandleLeft}>{leftArrow}</i>
           <Link to="/"><i className='icon home' onClick={clickHome}>{homeIcon}</i></Link>

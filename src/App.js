@@ -1,4 +1,4 @@
-import { Router, Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
+import { Routes, Route,  useLocation } from "react-router-dom";
 import Cssque from "./components/questions/cssque/Cssque.jsx";
 import Htmlque from "./components/questions/htmlque/Htmlque.jsx";
 import Jsque from "./components/questions/jsque/Jsque.jsx";
