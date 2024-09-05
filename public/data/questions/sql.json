@@ -1,0 +1,253 @@
+[
+    {
+      "id": 1,
+      "question": "What does SQL stand for?",
+      "answer": "SQL stands for Structured Query Language."
+    },
+    {
+      "id": 2,
+      "question": "What is a database?",
+      "answer": "A database is an organized collection of structured data stored electronically."
+    },
+    {
+      "id": 3,
+      "question": "What is a table in SQL?",
+      "answer": "A table is a collection of data organized into rows and columns in a database."
+    },
+    {
+      "id": 4,
+      "question": "What is a primary key?",
+      "answer": "A primary key is a unique identifier for a record in a table, ensuring that no duplicate values exist."
+    },
+    {
+      "id": 5,
+      "question": "What is a foreign key?",
+      "answer": "A foreign key is a column or group of columns that establishes a link between data in two tables."
+    },
+    {
+      "id": 6,
+      "question": "What does the SELECT statement do?",
+      "answer": "The SELECT statement is used to retrieve data from a database."
+    },
+    {
+      "id": 7,
+      "question": "How do you retrieve all columns from a table in SQL?",
+      "answer": "By using `SELECT * FROM table_name;`."
+    },
+    {
+      "id": 8,
+      "question": "How do you filter data in SQL?",
+      "answer": "By using the WHERE clause, for example, `SELECT * FROM table_name WHERE condition;`."
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between WHERE and HAVING?",
+      "answer": "`WHERE` is used to filter rows before aggregation, while `HAVING` is used after aggregation."
+    },
+    {
+      "id": 10,
+      "question": "How do you sort the result set in SQL?",
+      "answer": "By using the `ORDER BY` clause, for example, `SELECT * FROM table_name ORDER BY column_name;`."
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the INSERT statement?",
+      "answer": "The `INSERT` statement is used to insert new rows into a table."
+    },
+    {
+      "id": 12,
+      "question": "How do you update data in SQL?",
+      "answer": "By using the `UPDATE` statement, for example, `UPDATE table_name SET column1 = value1 WHERE condition;`."
+    },
+    {
+      "id": 13,
+      "question": "How do you delete data from a table?",
+      "answer": "By using the `DELETE` statement, for example, `DELETE FROM table_name WHERE condition;`."
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between DELETE and TRUNCATE?",
+      "answer": "`DELETE` removes rows based on a condition and can be rolled back, while `TRUNCATE` removes all rows and cannot be rolled back."
+    },
+    {
+      "id": 15,
+      "question": "What is a JOIN in SQL?",
+      "answer": "A `JOIN` is used to combine rows from two or more tables based on a related column."
+    },
+    {
+      "id": 16,
+      "question": "What are the types of JOINs in SQL?",
+      "answer": "The types of JOINs are: INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+    },
+    {
+      "id": 17,
+      "question": "What is an INNER JOIN?",
+      "answer": "An `INNER JOIN` returns rows when there is a match in both tables."
+    },
+    {
+      "id": 18,
+      "question": "What is a LEFT JOIN?",
+      "answer": "A `LEFT JOIN` returns all rows from the left table and matching rows from the right table. If there is no match, NULL is returned for the right table."
+    },
+    {
+      "id": 19,
+      "question": "What is a RIGHT JOIN?",
+      "answer": "A `RIGHT JOIN` returns all rows from the right table and matching rows from the left table. If there is no match, NULL is returned for the left table."
+    },
+    {
+      "id": 20,
+      "question": "What is a FULL JOIN?",
+      "answer": "A `FULL JOIN` returns all rows when there is a match in either table. Rows without matches in either table return NULL."
+    },
+    {
+      "id": 21,
+      "question": "What is a UNION in SQL?",
+      "answer": "A `UNION` is used to combine the result sets of two or more SELECT statements, removing duplicate rows."
+    },
+    {
+      "id": 22,
+      "question": "What is the difference between UNION and UNION ALL?",
+      "answer": "`UNION` removes duplicate rows, while `UNION ALL` includes all duplicates."
+    },
+    {
+      "id": 23,
+      "question": "What is the GROUP BY clause?",
+      "answer": "The `GROUP BY` clause groups rows that have the same values into summary rows."
+    },
+    {
+      "id": 24,
+      "question": "How do you calculate the average value in SQL?",
+      "answer": "By using the `AVG()` function, for example, `SELECT AVG(column_name) FROM table_name;`."
+    },
+    {
+      "id": 25,
+      "question": "What is the COUNT() function in SQL?",
+      "answer": "`COUNT()` returns the number of rows that match a specified condition."
+    },
+    {
+      "id": 26,
+      "question": "How do you find the maximum value in SQL?",
+      "answer": "By using the `MAX()` function, for example, `SELECT MAX(column_name) FROM table_name;`."
+    },
+    {
+      "id": 27,
+      "question": "How do you find the minimum value in SQL?",
+      "answer": "By using the `MIN()` function, for example, `SELECT MIN(column_name) FROM table_name;`."
+    },
+    {
+      "id": 28,
+      "question": "What is the difference between aggregate and scalar functions?",
+      "answer": "Aggregate functions work on multiple rows (e.g., `SUM()`), while scalar functions work on individual values (e.g., `ROUND()`)."
+    },
+    {
+      "id": 29,
+      "question": "What is a subquery in SQL?",
+      "answer": "A subquery is a query nested within another query."
+    },
+    {
+      "id": 30,
+      "question": "What are indexes in SQL?",
+      "answer": "Indexes are used to speed up the retrieval of data from a table by creating a data structure that allows quick lookups."
+    },
+    {
+      "id": 31,
+      "question": "What are the types of indexes in SQL?",
+      "answer": "The main types of indexes are clustered and non-clustered indexes."
+    },
+    {
+      "id": 32,
+      "question": "What is a clustered index?",
+      "answer": "A clustered index sorts and stores the data rows in the table based on the index key."
+    },
+    {
+      "id": 33,
+      "question": "What is a non-clustered index?",
+      "answer": "A non-clustered index creates a logical order that doesn't affect the physical storage of data."
+    },
+    {
+      "id": 34,
+      "question": "What is normalization in SQL?",
+      "answer": "Normalization is the process of organizing data to reduce redundancy and improve data integrity."
+    },
+    {
+      "id": 35,
+      "question": "What are the different normal forms in SQL?",
+      "answer": "The normal forms are 1NF, 2NF, 3NF, BCNF, and 4NF."
+    },
+    {
+      "id": 36,
+      "question": "What is denormalization?",
+      "answer": "Denormalization is the process of adding redundancy to a database for performance improvement."
+    },
+    {
+      "id": 37,
+      "question": "What is a transaction in SQL?",
+      "answer": "A transaction is a sequence of SQL operations that are executed as a single unit of work."
+    },
+    {
+      "id": 38,
+      "question": "What are the properties of a transaction?",
+      "answer": "The properties of a transaction are ACID: Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+      "id": 39,
+      "question": "What is a COMMIT in SQL?",
+      "answer": "A `COMMIT` statement is used to save all the transactions performed in the current session."
+    },
+    {
+      "id": 40,
+      "question": "What is a ROLLBACK in SQL?",
+      "answer": "`ROLLBACK` is used to undo transactions that have not been saved to the database."
+    },
+    {
+      "id": 41,
+      "question": "What is a stored procedure?",
+      "answer": "A stored procedure is a precompiled collection of SQL statements that can be executed as a unit."
+    },
+    {
+      "id": 42,
+      "question": "What are triggers in SQL?",
+      "answer": "Triggers are SQL code that automatically execute in response to certain events on a table or view."
+    },
+    {
+      "id": 43,
+      "question": "What is a view in SQL?",
+      "answer": "A view is a virtual table based on the result set of a SQL query."
+    },
+    {
+      "id": 44,
+      "question": "What is a cursor in SQL?",
+      "answer": "A cursor is a database object used to retrieve rows from a result set one at a time."
+    },
+    {
+      "id": 45,
+      "question": "What is the difference between a function and a stored procedure?",
+      "answer": "A function returns a single value and can be used in SQL statements, while a stored procedure may return multiple values and cannot be used directly in SQL queries."
+    },
+    {
+      "id": 46,
+      "question": "What is the purpose of the `ALTER` statement in SQL?",
+      "answer": "The `ALTER` statement is used to modify the structure of a table (e.g., add, modify, or drop columns)."
+    },
+    {
+      "id": 47,
+      "question": "What is the `CASE` statement in SQL?",
+      "answer": "The `CASE` statement is used to provide if-then logic within a query."
+    },
+    {
+      "id": 48,
+      "question": "What is a self-join in SQL?",
+      "answer": "A self-join is a regular join but the table is joined with itself."
+    },
+    {
+      "id": 49,
+      "question": "What is the purpose of the `DISTINCT` keyword in SQL?",
+      "answer": "`DISTINCT` is used to remove duplicate values from a result set."
+    },
+    {
+      "id": 50,
+      "question": "What is the `EXISTS` operator in SQL?",
+      "answer": "`EXISTS` is used to test for the existence of any record in a subquery."
+    }
+  ]
+  

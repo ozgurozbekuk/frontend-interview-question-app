@@ -6,6 +6,8 @@ import Mixque from "./components/questions/mixque/Mixque.jsx";
 import Reactque from "./components/questions/reactque/Reactque.jsx";
 import Start from "./components/start/Start.jsx";
 import "./App.css"
+import Nodejsque from "./components/questions/nodejsque/Nodejsque.jsx";
+import Sqlque from "./components/questions/sqlque/Sqlque.jsx";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path="/js" element={<Jsque />} />
         <Route path="/react" element={<Reactque />} />
         <Route path="/html" element={<Htmlque />} />
+        <Route path="/nodejs" element={<Nodejsque />} />
+        <Route path="/sql" element={<Sqlque />} />
       </Routes>
     
     </div>

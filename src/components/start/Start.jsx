@@ -17,6 +17,8 @@ function Start() {
           <Link to="/css"><button className='enter-button'>CSS (50 Questions)</button></Link>
           <Link to="/js"><button className='enter-button'>JavaScript (200 Questions)</button></Link>
           <Link to="/react"><button className='enter-button'>React (96 Questions)</button></Link>
+          <Link to="/nodejs"><button className='enter-button'>Nodejs (50 Questions)</button></Link>
+          <Link to="/sql"><button className='enter-button'>SQL (50 Questions)</button></Link>
         </div>
     </div>
   )
