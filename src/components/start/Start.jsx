@@ -10,7 +10,7 @@ function Start() {
   return (
     <div className='enter'>
         <img src={EnterImg} className='start-img' alt="" />
-        <h1 >Welcome to My Interview Questions App</h1>
+        <h1 >Welcome to Interview Questions App</h1>
         <div className='button-container'>
           <Link to="/mix"><button className='enter-button' >Mix (80 Questions)</button></Link>
           <Link to="/html"><button className='enter-button'>HTML (50 Questions)</button></Link>
